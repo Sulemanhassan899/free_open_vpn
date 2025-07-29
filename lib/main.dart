@@ -42,17 +42,19 @@ class MyApp extends StatelessWidget {
       title: 'OpenVpn Demo',
       home: SplashScreen(),
       theme: ThemeData(
+        useMaterial3: true,
         appBarTheme: AppBarTheme(centerTitle: true, elevation: 0),
-        useMaterial3: false,
       ),
       themeMode: Pref.isDarkMode ? ThemeMode.dark : ThemeMode.light,
       //dark theme
       darkTheme: ThemeData(
         brightness: Brightness.dark,
-        useMaterial3: false,
+        useMaterial3: true,
         appBarTheme: AppBarTheme(centerTitle: true, elevation: 3),
       ),
       debugShowCheckedModeBanner: false,
+      defaultTransition: Transition.fadeIn,
+      transitionDuration: const Duration(milliseconds: 500),
     );
   }
 }
