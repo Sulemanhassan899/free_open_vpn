@@ -17,7 +17,7 @@ class NetworkTestScreen extends StatelessWidget {
     APIs.getIPDetails(ipData: ipData);
 
     return Scaffold(
-      appBar: AppBar(title: Text('Network Test Screen')),
+      appBar: AppBar(title: Text('Network Info')),
 
       //refresh button
       floatingActionButton: Padding(
