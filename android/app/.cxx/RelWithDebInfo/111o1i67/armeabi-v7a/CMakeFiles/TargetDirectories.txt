@@ -1,0 +1,2 @@
+/Users/sulemanhassan/Freelance/vpn/android/app/.cxx/RelWithDebInfo/111o1i67/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/sulemanhassan/Freelance/vpn/android/app/.cxx/RelWithDebInfo/111o1i67/armeabi-v7a/CMakeFiles/rebuild_cache.dir
